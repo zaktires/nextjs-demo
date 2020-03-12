@@ -5,4 +5,4 @@ export const IS_CLIENT_SIDE = !IS_SERVER_SIDE;
 
 // APIs
 
-export const SERVER_ENDPOINT = IS_SERVER_SIDE ? (IS_DEV ? 'http://localhost:3000/api' : 'https://nextjs-demo-dun.now.sh/api') : '/api';
+export const SERVER_ENDPOINT = IS_SERVER_SIDE ? (IS_DEV ? 'http://localhost:3000/api' : 'https://nextjs-demo-sable.now.sh/api') : '/api';
